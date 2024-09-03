@@ -1,0 +1,12 @@
+#file: noinspection undefined
+server:
+  port: 8082
+  servlet:
+    context-path: /profile
+
+spring:
+  neo4j:
+    uri: ${DBMS_CONNECTION}
+    authentication:
+      username: ${DBMS_USERNAME}
+      password: ${DBMS_PASSWORD}

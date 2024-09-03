@@ -1,0 +1,26 @@
+#file: noinspection undefined
+server:
+  port: 8083
+servlet:
+  context-path: /notification
+
+spring:
+  application:
+    name: notification-service
+  data:
+    mongodb:
+      uri: mongodb://root:8082@localhost:27017/notification-service?authSource=admin
+  kafka:
+    bootstrap-servers: localhost:9094
+    consumer:
+      group-id: notification-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+
+notification:
+  brevo:
+    url: https://api.brevo.com
+    api-key: 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

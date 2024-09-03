@@ -1,0 +1,9 @@
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\ApiGatewayApplication.java
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\configuration\AuthenticationFilter.java
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\configuration\WebClientConfiguration.java
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\dto\request\IntrospectRequest.java
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\dto\response\ApiResponse.java
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\dto\response\IntrospectResponse.java
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\repository\IIdentityClient.java
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\service\IIdentityService.java
+C:\Users\ACER\OneDrive\Documents\Project_learning\Bookteria\api-gateway\src\main\java\com\anonymousv18\gateway\service\impl\IdentityService.java
